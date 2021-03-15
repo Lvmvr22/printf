@@ -1,0 +1,33 @@
+.TH _PRINTF "15th March 2021" "ALX LOW-LEVEL PROGRAMMING"
+.SH NAME
+_print Print parameter(s) to standard output
+.SH SYNOPSIS
+int _printf(const char *format, ...)
+.SH DESCRIPTION
+The _printf command prints output according to a specified format and returns the number of characters printed out. It however returns (-1) upon encountering an error of any sort.
+.br
+.B Viable format specifiers include the following:
+.br
+.B %c
+- Prints a character
+.br
+.B %d
+- Prints a decimal
+.br
+.B %i
+- Prints an integer
+.br
+.B %s
+- Prints a string
+.br
+.B %%
+- Prints a percentage, the character is not converted
+.SH OPTIONS
+The _printf does not take any options.
+.SH SEE ALSO
+printf, fprintf, puts, write.
+.SH BUGS
+Report Bugs to lamarnyairo@gmail.com
+/nicholaskrotich8@gmail.com
+.SH AUTHOR
+Written by Lameck Nyairo and Nicholas Rotich
