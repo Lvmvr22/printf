@@ -1,2 +1,5 @@
-# PrintF
-Secrets of printf# printf
+
+Secrets of printf#
+Prepared by
+>> Lameck Nyairo
+>> Nicholas Rotich
